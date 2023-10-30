@@ -75,7 +75,6 @@ main div button {
 
 footer div {
     display: flex;
-    flex-direction: column;
     width: 300px;
     margin: 10px;
     justify-content: center;
@@ -83,9 +82,21 @@ footer div {
     font-family: 'Noto Sans', sans-serif;
 }
 
-.form {
+.container-form {
     border-style:ridge;
     border-color: #e93519;
+    align-items: center;
+    display: flex;
+    width: 700px;
+    flex-direction:column;
+    padding: 20px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
 }
 
 .second-button {
@@ -102,26 +113,22 @@ footer div {
     border-color: #e93519;
 }
 
-.logos img {
-    width: 55px;
-    margin-top: 10px;
-}
-
-.footer {
+footer div img {
+    width: 50px;
     display: flex;
-    align-items: center;
+    margin-left: 20px;
 }
-
-.container-form {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.container-social {
-    display: inline;
-    align-items: center;
+footer div h2 {
+    font-family: 'Bungee', sans-serif;
     text-align: center;
-    justify-content: space-between;
+    display: flex;
 }
+.social {
+    margin-left: 50px;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 340px;
+
+}
+
